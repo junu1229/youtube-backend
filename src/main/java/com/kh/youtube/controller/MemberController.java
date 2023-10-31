@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequestMapping("/api/*")
+@CrossOrigin(origins = {"*"}, maxAge = 6000)
 public class MemberController {
 
     @Autowired
